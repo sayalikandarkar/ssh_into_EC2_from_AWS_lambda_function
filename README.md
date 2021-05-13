@@ -15,6 +15,7 @@ So, I hope this guide saves you the hassle of uploading heavy python packages on
 # 4. Generate PEM file for access to your EC2.
 # 5. Upload the PEM file securely on your S3. Make sure you provide it the correct access rights.
 # 6. Use the ssh python code written in the lambda_function.py python file attached in my repository!
+     You can also upload the site packages along with the code and upload the whole thing as a zip! - lamba_function.zip has been attached for the same.
 
 Hope it is helpful! Reach out to me in case of any queries
 
