@@ -24,7 +24,7 @@ def lambda_handler(event, context):
         const region = event.Records[0].awsRegion;
         var s3FileCommand = 'aws s3 cp s3://' + bucket + '/' + key + ' ./' + key + ' --region ' + region;
         var ssh = new SSH({
-            host: 'ec2-13-233-49-98.ap-south-1.compute.amazonaws.com',
+            host: '{{put your host name}}',
             user: 'ec2-user',
             key: fs.readFileSync("sayali.pem")
         });
