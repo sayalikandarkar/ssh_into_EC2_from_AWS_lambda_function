@@ -1,1 +1,1 @@
-# ssh_into_EC2_from_AWS_lambda_function
+# ssh_into_EC2_from_AWS_lambda
